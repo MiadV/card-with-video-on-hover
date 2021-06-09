@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box Icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Property UI Card - Video on Hover</title>
+  </head>
+  <body>
+    <!-- Dark Mode Switch -->
+    <i id="color-mode-switch" class="bx bx-moon"></i>
+
+    <div class="container">
+      <div class="card">
+        <div class="card__header">
+          <video class="card__header__video" muted>
+            <source
+              src="https://vod-progressive.akamaized.net/exp=1623058387~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2876%2F16%2F414380290%2F1782731081.mp4~hmac=50b26f394c610a4e5fb7e0a5e01d6ce15ba821f4cba3cf73c64b1c88cf650d6f/vimeo-prod-skyfire-std-us/01/2876/16/414380290/1782731081.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <img class="card__header__agent" src="./assets/avatar.jpg" />
+        </div>
+
+        <div class="card__body">
+          <div class="text_muted">TOWNHOUSE &bull; 2 YEAR OLD</div>
+          <div class="card__price">$1,056,000</div>
+          <div class="card__address">
+            <i class="bx bx-map"></i>
+            <p>3110 Timberbrook Lane Durango, NY</p>
+          </div>
+        </div>
+        <div class="hr"></div>
+        <div class="card__footer">
+          <div class="card__footer__box">
+            <i class="bx bx-bed"></i>
+            3
+          </div>
+          <div class="card__footer__box">
+            <i class="bx bx-bath"></i>
+            2
+          </div>
+          <div class="card__footer__box">
+            <i class="bx bx-swim"></i>
+            1
+          </div>
+          <div class="card__footer__box">
+            <i class="bx bx-dumbbell"></i>
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./main.js"></script>
+  </body>
+</html>
